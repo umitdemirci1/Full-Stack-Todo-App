@@ -1,2 +1,2 @@
-# Todo-App-Angular
- 
+Detailed todo application used Java Spring Boot and Angular.
+Will be improved...
