@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Sidebar from './components/Sidebar/sidebar'
 import Navbar from './components/Navbar/navbar'
+import AddContentPanel from './components/AddContentPanel/addContentPanel'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Navbar></Navbar>
-      <Sidebar></Sidebar>
+      <div className='align'>
+        <Sidebar></Sidebar>
+        <AddContentPanel></AddContentPanel>
+      </div>
+
     </div>
   )
 }

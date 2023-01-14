@@ -7,7 +7,6 @@ const Sidebar = () => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false)
     const [todos, setTodos] = useState([])
-    const [test, setTest] = useState("")
 
     const refreshTodos = () => {
         fetch("http://localhost:8080/todos")
@@ -42,6 +41,8 @@ const Sidebar = () => {
             </div>
         )
     } else {
+        
+
         return (
             <div>
                 <div className="todo-list">

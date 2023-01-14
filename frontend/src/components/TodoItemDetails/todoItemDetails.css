@@ -1,0 +1,18 @@
+.todo-item-body{
+    width: 48vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 6px;
+    background-color: rgb(196, 49, 49);
+    z-index: 2;
+}
+
+
+.text{
+    border:none;
+    border-radius: 2px;
+    height: 5vh;
+    width: 75%;
+}
