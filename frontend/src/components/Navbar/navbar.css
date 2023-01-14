@@ -1,0 +1,11 @@
+.banner{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: sans-serif;
+
+    background: linear-gradient(90deg, #12c2e9 0%, #c471ed, #f64f59 100%);
+    color: white;
+}

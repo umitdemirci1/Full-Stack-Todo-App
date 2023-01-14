@@ -1,0 +1,14 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 24vw;
+    height: 92vh;
+    
+    font-size: medium;
+    font-family: sans-serif;
+
+    background-color: #FFFDE4;
+    color: gray;
+}

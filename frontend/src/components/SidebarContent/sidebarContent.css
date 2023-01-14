@@ -1,0 +1,16 @@
+.content{
+    min-width: 300px;
+    width: 300px;
+    min-height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background: linear-gradient(45deg, #12c2e982 0%,#efd2fbfd 100%);
+}
